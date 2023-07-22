@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Scientific Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="ScientificCalci.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="calculator">
+                <input type="text" id="output" placeholder="Enter Something" readonly/>
+                <button onclick="power()">x<sup>2</sup></button>
+                <button onclick="pie()">𝞹</button>
+                <button onclick="exp()">e</button>
+                <button class="ac_button" onclick="allClear()">C</button>
+                <button class="ac_button" onclick="delLastChar()">DEL</button>
+
+                <button onclick="fact()">x!</button>
+                <button onclick="sqrt()">√</button>
+                <button class="btn">(</button>
+                <button class="btn">)</button>
+                <button class="btn">x</button>
+
+                <button onclick="log()">log</button>
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn">x</button>
+
+                <button onclick="sin()">sin</button>
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn">-</button>
+
+                <button onclick="cos()">cos</button>
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn">+</button>
+
+                <button onclick="tan()">tan</button>
+                <button class="btn" onclick="display('%')">%</button>
+                <button class="btn">0</button>
+                <button class="btn">_</button>
+                <button class="equal" onclick="calculate()">=</button>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Abhishek's Calculator</h3>
+            <ul>
+                <li>
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="ScientificCalci.js"></script>
+</body>
+</html>
